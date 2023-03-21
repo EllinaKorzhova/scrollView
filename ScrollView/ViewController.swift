@@ -22,6 +22,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         scrollView.contentSize = CGSize(width: view.bounds.width, height: 1000)
         scrollView.delegate = self
         scrollView.backgroundColor = .systemIndigo
+        scrollView.contentInsetAdjustmentBehavior = .never 
         
         view = scrollView
         
